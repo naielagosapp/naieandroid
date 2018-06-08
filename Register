@@ -1,5 +1,5 @@
 <?php
-    $con = mysqli_connect("mysql10.000webhost.com", "id6111458_naieapp", "naie12345678", "id6111458_naieapp");
+    $con = mysqli_connect("files.000webhost.com", "naieapp", "naie12345678", "id6111458_naieapp");
     
     $email = $_POST["email"];
     $institution = $_POST["institution"];
