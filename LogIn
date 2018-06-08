@@ -1,6 +1,6 @@
 ?php
     require("password.php");
-    $con = mysqli_connect("files.000webhost.com", "naieapp", "naie12345678", "id6111458_naieapp");
+    $con = mysqli_connect("files.000webhost.com", "id6111458_naieandroidapp", "naie12345678", "id6111458_naieapp");
     
     $username = $_POST["username"];
     $password = $_POST["password"];
